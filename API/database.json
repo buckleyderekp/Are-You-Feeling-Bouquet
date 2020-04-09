@@ -21,5 +21,29 @@
            "type": "Tulip"
        }
 
-    ]
+    ],
+    
+        "retailers": [
+            {
+                "retailerId": 1,
+                "businessName": "Flower Power"
+            },
+            {
+                "retailerId": 2,
+                "businessName": "Petal Pushers"
+            },
+            {
+                "retailerId": 3,
+                "businessName": "Kabloom"
+            },
+            {
+                "retailerId": 4,
+                "businessName": "Floral Reef"
+            },
+            {
+                "retailerId": 5,
+                "businessName": "First and Bloom"
+            }
+        ]
+    
 }
