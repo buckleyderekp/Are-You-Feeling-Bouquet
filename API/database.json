@@ -1,0 +1,25 @@
+{
+    "flowers": [
+       {
+           "flowerId": 1,
+           "type": "Lily"
+       },
+       {
+           "flowerId": 2,
+           "type": "Rose"
+       },
+       {
+           "flowerId": 3,
+           "type": "Daisy"
+       },
+       {
+           "flowerId": 4,
+           "type": "Gardenia"
+       },
+       {
+           "flowerId": 5,
+           "type": "Tulip"
+       }
+
+    ]
+}
