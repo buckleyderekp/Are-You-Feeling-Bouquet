@@ -1,23 +1,23 @@
 {
     "flowers": [
        {
-           "flowerId": 1,
+           "id": 1,
            "type": "Lily"
        },
        {
-           "flowerId": 2,
+           "id": 2,
            "type": "Rose"
        },
        {
-           "flowerId": 3,
+           "id": 3,
            "type": "Daisy"
        },
        {
-           "flowerId": 4,
+           "id": 4,
            "type": "Gardenia"
        },
        {
-           "flowerId": 5,
+           "id": 5,
            "type": "Tulip"
        }
 
@@ -25,24 +25,58 @@
     
         "retailers": [
             {
-                "retailerId": 1,
-                "businessName": "Flower Power"
+                "id": 1,
+                "businessName": "Flower Power",
+                "address": "123 Easy Street",
+                "city": "Memphis",
+                "state": "Tennessee",
+                "distributor": 1
             },
             {
-                "retailerId": 2,
-                "businessName": "Petal Pushers"
+                "id": 2,
+                "businessName": "Petal Pushers",
+                "address": "1201 Main Street",
+                "city": "Nashville",
+                "state": "Tennessee",
+                "distributor": 3
             },
             {
-                "retailerId": 3,
-                "businessName": "Kabloom"
+                "id": 3,
+                "businessName": "Kabloom",
+                "address": "504 Street Street",
+                "city": "El Paso",
+                "state": "Texas",
+                "distributor": 3
             },
             {
-                "retailerId": 4,
-                "businessName": "Floral Reef"
+                "id": 4,
+                "businessName": "Floral Reef",
+                "address": "302 Lane Circle",
+                "city": "Chicago",
+                "state": "Illinois",
+                "distributor": 2
             },
             {
-                "retailerId": 5,
-                "businessName": "First and Bloom"
+                "id": 5,
+                "businessName": "First and Bloom",
+                "address": "Petal Terrace",
+                "city": "New York",
+                "state": "New York",
+                "distributor": 1
+            }
+        ],
+        "distributors": [
+            {
+                "id": 1,
+                "distributorName": "Flowers for All"
+            },
+            {
+                "id": 2,
+                "distributorName": "Here's yo Stuff"
+            },
+            {
+                "id": 3,
+                "distributorName": "Take That!"
             }
         ]
     
